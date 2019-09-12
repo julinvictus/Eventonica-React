@@ -24,7 +24,8 @@ export default class CreateUser extends Component {
         console.log(newUser);
         alert('Welcome! 🎉');
 
-        axios.post('http://localhost:5000/users/add', newUser)
+        //axios.post('http://localhost:5000/users/add', newUser)
+        axios.post('https://eventonica-mern.herokuapp.com/users/add', newUser)
         .then(res => console.log(res.data));
         
         this.setState({

@@ -26,7 +26,8 @@ export default class SearchEvents extends Component {
             eventname: eventName,
             atendees: ["Juliana"]
         };
-        axios.post('http://localhost:5000/events/add', newEvent)
+        //axios.post('http://localhost:5000/events/add', newEvent)
+        axios.post('https://eventonica-mern.herokuapp.com/events/add', newEvent)
         .then(res => console.log(res.data));
     }
 

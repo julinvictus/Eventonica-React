@@ -20,7 +20,8 @@ export default class EventsList extends Component {
         this.state = {events: []};
     }
     componentDidMount() {
-        axios.get('http://localhost:5000/events/')
+        //axios.get('http://localhost:5000/events/')
+        axios.get('https://eventonica-mern.herokuapp.com/events/')
          .then(response => {
            this.setState({ events: response.data });
          })
