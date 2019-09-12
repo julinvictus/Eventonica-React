@@ -1,5 +1,7 @@
 # 🤗 Eventonica
 
+Deployed at https://eventonica-r.herokuapp.com
+
 MERN project using
 - MongoDB
 - Express
