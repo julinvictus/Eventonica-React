@@ -27,4 +27,5 @@ Postman
 Enzyme / Jest
 
 ![tests](screenshots/Enzyme_Jest.png)
+To run tests: npm test
 
