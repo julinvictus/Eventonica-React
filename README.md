@@ -1,8 +1,8 @@
 # 🤗 Eventonica
 
-Deployed at https://eventonica-r.herokuapp.com
+Find out about events in SF today!
 
-MERN project using
+### MERN stack project using:
 - MongoDB
 - Express
 - React
@@ -13,6 +13,20 @@ MERN project using
 - Axios
 - Jest
 - Enzyme
+
+### Deployed at:
+[eventonica-r.herokuapp.com](https://eventonica-r.herokuapp.com/)
+
+### How to set up:
+Run server: 
+```
+$ cd backend
+$ npm start
+```
+Run React: 
+```
+$ npm start
+```
 
 ![index](screenshots/Index.png)
 ![Search](screenshots/Search_events.png)
